@@ -1,0 +1,237 @@
+body {
+    background-color: #393770;
+}
+
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.age_tech {
+    height: 90vh;
+}
+
+.age {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  right: 50;
+  left: 50%;
+  top: 30%;
+  bottom: 70%;
+  font-size: 60;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ff5700;
+  text-align: center;
+  line-height: 100px;
+}
+
+.taught {
+  position: relative;
+  display: flex;
+  right: 50%;
+  left: 50%;
+  top: 50%;
+  bottom: 50%;
+  font-size: 60;
+  min-width: max-content;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #8bbfcc;
+}
+
+.learnt {
+    height: 105vh;
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-top: 50px;
+    background-color: rgb(46, 46, 46);
+}
+
+.name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  right: 50;
+  top: 35%;
+  left: 50%;
+  top: 10%;
+  bottom: 65%;
+  font-size: 60;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #8bbfcc;
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 110vh 80vh;
+    align-content: left;
+}
+
+.time-intro {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 40;
+    color: #8bbfcc;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.time {
+    line-height: 200px;
+    font-size: 100;
+    text-align: left;
+    color: #ff5700;
+    margin-left: 10px;
+}
+
+.image {
+    background-image: url('./1618846650590-01~2.jpeg.jpg');
+    background-size: contain;
+    margin: 20px;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 40;
+    color: #8bbfcc;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.bulltein-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    font-size: 30;
+}
+
+.work-and-education {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 80vh 100vh;
+}
+.exp {
+    color: #8bbfcc;
+    font-size: 40;
+    text-align: center;
+    padding: 20px;
+}
+.work {
+    color: #8bbfcc;
+    font-size: 20;
+    padding: 20px;
+}
+
+.educated{
+    color: #8bbfcc;
+    font-size: 40;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.schooling {
+    color: #8bbfcc;
+    font-size: 20;
+    padding: 20px;
+}
+
+.school {
+    color: #ff5700;
+    font-size: 30;
+    padding-top: 20px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    padding-top: 50px;
+    align-content: center;
+}
+
+.end {
+    height: 50vh;
+    background-color: #ff5700;
+    align-content: center;
+}
+
+.socials {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 50;
+    top: 35%;
+    left: 50%;
+    top: 20%;
+    bottom: 80%;
+    font-size: 60;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #393545;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
