@@ -48,9 +48,4 @@ div {
       display: block;
       text-align: left;
     }
-    .bars {
-      background-image: url('./unknown.png');
-      background-size: cover;
-      
-    }
   }

@@ -141,6 +141,12 @@ h2 {
     color: #8bbfcc;
     font-size: 20;
     padding: 20px;
+    text-align: center;
+}
+
+iframe {
+    width: 100vh;
+    align-content: right;
 }
 
 .school {
@@ -151,9 +157,10 @@ h2 {
 
 .contact {
     display: grid;
-    grid-template-columns: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto ;
     padding-top: 50px;
     align-content: center;
+    padding-left: 150px;
 }
 
 .end {
@@ -184,54 +191,79 @@ img {
     align-content: center;
 }
 
+@media screen and (max-width: 600px) {
+    .name {
+        font-size: 38;
+        top:30%;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .age {
+        font-size: 34;
+        top: 50%;
+        padding-left: 10px;
+    }
+    .grid-container {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+    .time-intro {
+        font-size: 30px;
+    }
+    .time {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .bulltein-container {
+        grid-gap-row: 15px;
+        grid-column-gap: 1px;
+    }
+    .image {
+        background-repeat: no-repeat;
+    }
+    .learnt {
+        height: 150vh;
+    }
 
+    .work-and-education {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        height: 120vh;
+    }
+    .work {
+        width: 50vh;
+    }
 
+    h1 {
+        padding-right: 10px;
 
+    }
 
+    .education {
+        width: 50vh;
+    }
 
+    .schooling {
+        font-size: 18;
+    }
 
+    iframe {
+        width: 48.5vh;
+    }
 
+    .end {
+        height: 520px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .contact {
+        grid-template-columns: auto auto;
+        padding-left: 50px;
+        padding-top: 100px;
+        grid-row-gap: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+body {
+    background-image: url('./contact.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+    align-content: center;
+}
+
+h1 {
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 50%;
+  bottom: 50%;
+  font-size: 60;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #8bbfcc;
+  line-height: 10px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.email {
+    top: 50%
+}
+
+@media screen and (max-width: 600px) {
+    .email {
+        font-size: 25;
+    }
+}
