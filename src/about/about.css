@@ -93,6 +93,7 @@ div.disabled {
     background-size: contain;
     margin: 20px;
     height: 100vh;
+    position: relative;
 }
 
 h2 {
@@ -254,6 +255,89 @@ img {
 
     iframe {
         width: 48.5vh;
+    }
+
+    .end {
+        height: 520px;
+    }
+
+    .contact {
+        grid-template-columns: auto auto;
+        padding-left: 50px;
+        padding-top: 100px;
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 38;
+        top:30%;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .age {
+        font-size: 34;
+        top: 50%;
+        padding-left: 10px;
+    }
+    .grid-container {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        height: 100vh;
+    }
+    .time-intro {
+        font-size: 30px;
+    }
+    .time {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: left;
+    }
+    .bulltein-container {
+        grid-gap-row: 15px;
+        grid-column-gap: 1px;
+    }
+    .image {
+        background-repeat: no-repeat;
+    }
+    .learnt {
+        height: 150vh;
+    }
+
+    .work-and-education {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        height: 80vh;
+        padding-left: 16%;
+    }
+    .work {
+        width: 50vh;
+    }
+
+    h1 {
+        padding-right: 10px;
+
+    }
+
+    .education {
+        width: 50vh;
+    }
+
+    .schooling {
+        font-size: 18;
+    }
+
+    iframe {
+        width: 50vh;
     }
 
     .end {

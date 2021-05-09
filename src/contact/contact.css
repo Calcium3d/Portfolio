@@ -22,11 +22,19 @@ h1 {
 }
 
 .email {
+    position: relative;
     top: 50%
 }
 
 @media screen and (max-width: 600px) {
     .email {
         font-size: 25;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .email {
+        font-size: 50;
+        top: 100%
     }
 }

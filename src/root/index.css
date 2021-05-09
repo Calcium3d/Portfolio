@@ -62,3 +62,25 @@ body {
   }
 }
 
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  .HI {
+
+    font-size: 70;
+    right: 60%;
+    left: 40%;
+    min-height: max-content;
+  }
+
+  .name {
+    top: 50%;
+    bottom: 50%;
+    font-size:90;
+    min-height: max-content;
+  }
+}
