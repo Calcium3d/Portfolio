@@ -1,40 +1,44 @@
 body {
-    background-image: url('./contact.png');
-    background-size: cover;
+    background-image: url('contact.png');
     background-repeat: repeat-y;
-    align-content: center;
+    background-size: cover;   
+    color: #8bbfcc;
+    text-align: center;                                                              
 }
 
 h1 {
-    position: relative;
-  display: flex;
-  flex-direction: column;
-  left: 50%;
-  top: 50%;
-  bottom: 50%;
-  font-size: 60;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #8bbfcc;
-  line-height: 10px;
-  padding-top: 200px;
-  text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    font-size: 200;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
 }
 
 .email {
-    position: relative;
-    top: 50%
+    top: 60%;
+    font-size: 70;
 }
 
-@media screen and (max-width: 600px) {
+@media screen  and (max-width: 1000px) {
+    h1 {
+        font-size: 200;
+        line-height: 200px;
+    }
+
     .email {
-        font-size: 25;
+        font-size: 55;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 100;
+        line-height: 200;
+    }
+
     .email {
-        font-size: 50;
-        top: 100%
+        font-size: 25;
     }
 }
