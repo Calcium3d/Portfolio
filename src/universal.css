@@ -5,6 +5,7 @@ div {
 .topnav {
     background-color: #393545;
     overflow: hidden;
+    height: fit-content;
   }
   
   .topnav a {
