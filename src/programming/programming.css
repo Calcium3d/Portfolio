@@ -1,0 +1,239 @@
+body {
+    background-color: #393770;
+}
+
+.banner {
+    height: 20vh;
+    background-color:#393770;
+}
+
+.heading {
+    position: relative;
+    color: #ff5700;
+    font-size: 100;
+    line-height: 150px;
+    right: 50%;
+    left: 50%;
+    top: 40%;
+    font-size: 100;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+.snakeGame {
+    display: grid;
+    border-radius: 25px;
+    background: #8bbfcc;
+    padding: 20px;
+    grid-template-columns: auto auto; 
+    grid-column-gap: 20px;
+    align-content: center;
+    
+}
+
+.snakeGame img {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.snakeGame h1 {
+    font-size: 100;
+    text-align: center;
+    color: #ff5700;
+}
+
+.snakeGame p {
+    font-size: 40;
+    text-align: center;
+    color: #393770;
+}
+
+.todolist {
+    display: grid;
+    border-radius: 25px;
+    background: #8bbfcc;
+    padding: 20px;
+    grid-template-columns: 100vh auto;
+    position: flex;
+    grid-column-gap: 20px;
+}
+
+.todolist h1 {
+    font-size: 90;
+    text-align: center;
+    color: #ff5700;
+}
+
+.todolist img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.todolist p {
+    font-size: 35;
+    text-align: center;
+    color: #393770;
+}
+
+.portfolio {
+    display: grid;
+    border-radius: 25px;
+    background: #8bbfcc;
+    padding: 20px;
+    grid-template-columns: 100vh auto; 
+    position: flex;
+    grid-column-gap: 20px;
+}
+
+.portfolio h1 {
+    font-size: 100;
+    text-align: center;
+    color: #ff5700;
+}
+
+.portfolio p {
+    font-size: 40;
+    text-align: center;
+    color: #393770;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.finale {
+    display: grid;
+    border-radius: 25px;
+    background: #8bbfcc;
+    padding: 20px;
+    grid-column-gap: 20px;
+
+    font-size: 26;
+    text-align: center;
+}
+
+.finale h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-size: 50;
+    }
+
+    .showcase {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .showcase h1 {
+        font-size: 50;
+    }
+
+    .showcase p {
+        font-size: 20;
+    }
+
+    .snakeGame {
+        grid-template-columns: auto;
+    }
+
+    .snakeGame img {
+        width: 100%;
+    }
+
+    .todolist {
+        grid-template-columns: auto;
+    }
+
+    .todolist h1 {
+        font-size: 40;
+    }
+
+    .portfolio {
+        grid-template-columns: auto;
+    }
+
+    .finale h1 {
+        font-size: 20;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .heading {
+        font-size: 50;
+    }
+
+    .showcase {
+        grid-template-columns: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .showcase h1 {
+        font-size: 50;
+    }
+
+    .showcase p {
+        font-size: 20;
+    }
+    
+    .snakeGame {
+        grid-template-columns: auto;
+    }
+
+    .snakeGame img {
+        width: 100%;
+    }
+
+    .todolist {
+        grid-template-columns: auto;
+    }
+
+    .todolist h1 {
+        font-size: 40;
+    }
+
+    .portfolio {
+        grid-template-columns: auto;
+    }
+
+    .finale h1 {
+        font-size: 20;
+        text-align: left;
+    }
+}
