@@ -1,5 +1,5 @@
 div {
-    font-family: 'Roboto mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .topnav {
@@ -24,7 +24,7 @@ div {
   }
   
   
-  .topnav .bars {
+  .topnav .icon {
     display: none;
   }
   
