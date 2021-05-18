@@ -1,15 +1,14 @@
 body {
-    background-color: #393770;
+    background-color: #3b4252;
 }
 
 .banner {
     height: 20vh;
-    background-color:#393770;
 }
 
 .heading {
     position: relative;
-    color: #ff5700;
+    color: #d8dee9;
     font-size: 100;
     line-height: 150px;
     right: 50%;
@@ -25,7 +24,7 @@ body {
 .showcase {
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 50px;
+    grid-gap: 10px;
     padding-left: 40px;
     padding-right: 40px;
     height: fit-content;
@@ -38,62 +37,39 @@ body {
 .snakeGame {
     display: grid;
     border-radius: 25px;
-    background: #8bbfcc;
+    background: #2e3440;
     padding: 20px;
     grid-template-columns: auto auto; 
-    grid-column-gap: 20px;
+    grid-gap: 20px;
     align-content: center;
     
 }
 
 .snakeGame img {
-    width: 80%;
+    width: 60vh;
     border-radius: 25px;
+    margin-left: 30px;
 }
 
 .snakeGame h1 {
-    font-size: 100;
+    font-size: 70;
     text-align: center;
-    color: #ff5700;
+    color: #d8dee9;
+    padding-bottom: 30px;
+    padding-right: 10px;
 }
 
 .snakeGame p {
-    font-size: 40;
+    font-size: 25;
     text-align: center;
-    color: #393770;
-}
-
-.todolist {
-    display: grid;
-    border-radius: 25px;
-    background: #8bbfcc;
-    padding: 20px;
-    grid-template-columns: 100vh auto;
-    position: flex;
-    grid-column-gap: 20px;
-}
-
-.todolist h1 {
-    font-size: 90;
-    text-align: center;
-    color: #ff5700;
-}
-
-.todolist img {
-    width: 100%;
-    border-radius: 25px;
-}
-
-.todolist p {
-    font-size: 35;
-    text-align: center;
-    color: #393770;
+    color: #eceff4;
+    line-height: 40px;
 }
 
 .portfolio {
     display: grid;
     border-radius: 25px;
-    background: #8bbfcc;
+    background: #2e3440;
     padding: 20px;
     grid-template-columns: 100vh auto; 
     position: flex;
@@ -103,13 +79,13 @@ body {
 .portfolio h1 {
     font-size: 100;
     text-align: center;
-    color: #ff5700;
+    color: #d8dee9;
 }
 
 .portfolio p {
     font-size: 40;
     text-align: center;
-    color: #393770;
+    color: #81a1c1;
 }
 
 .portfolio img {
@@ -117,26 +93,10 @@ body {
     border-radius: 25px;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
 .finale {
     display: grid;
     border-radius: 25px;
-    background: #8bbfcc;
+    background: #2e3440;
     padding: 20px;
     grid-column-gap: 20px;
 
@@ -146,6 +106,25 @@ a:active {
 
 .finale h1 {
     text-align: center;
+    color: #81a1c1;
+}
+
+a:link {
+    text-decoration: none;
+    color: #d8dee9;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #d8dee9;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -173,6 +152,7 @@ a:active {
 
     .snakeGame img {
         width: 100%;
+        margin-left: 0;
     }
 
     .todolist {

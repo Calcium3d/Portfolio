@@ -1,3 +1,7 @@
+* {
+  color:  #eceff4 ;
+}
+
 
 body {
   background-image: url("./programming.png");
@@ -7,36 +11,33 @@ body {
 }
 
 .display_text {
-  display: flex;
+  display: block;
+  position: relative;
   flex-direction: column;
   color: whitesmoke;
-}
-
-.HI {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 73%;
-  left: 22%;
-  top: 40%;
-  bottom: 60%;
-  font-size: 60;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  grid-template-columns: auto;
+  text-align: center;
 }
 
 .name {
-  position: fixed;
-  flex-flow: wrap;
+  margin-top: 18%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
   right: 50%;
   left: 50%;
-  top: 50%;
-  bottom: 50%;
+  top: 90%;
+  bottom: 30%;
   font-size: 100;
   width: 100%;
   text-align: center;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
+}
+
+.direct {
+  text-align: center;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,20 +46,24 @@ body {
     background-size: cover;
   }
 
-  .HI {
-    top: 25%;
-    bottom: 75%;
+  .name {
+    top: 50%;
+    bottom: 50%;
     font-size: 50;
-    right: 60%;
-    left: 40%;
-    min-height: max-content;
+    line-height: initial;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translate(-50%, -5%);
   }
 
-  .name {
-    top: 40%;
-    bottom: 60%;
-    font-size: 60;
-    min-height: max-content;
+  .display_text a {
+    margin-bottom: 20px;
+  }
+
+  .display_text {
+    flex-flow: column;
+    flex-shrink: 1;
+
   }
 }
 

@@ -1,5 +1,5 @@
 body {
-    background-color: #393770;
+    background-color:  #3b4252 ;
 }
 
 div.disabled {
@@ -17,12 +17,11 @@ div.disabled {
   flex-direction: column;
   right: 50;
   left: 50%;
-  top: 30%;
-  bottom: 70%;
+  top: 55%;
   font-size: 60;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #ff5700;
+  color:  #b48ead ;
   text-align: center;
   line-height: 100px;
 }
@@ -33,34 +32,16 @@ div.disabled {
   right: 50%;
   left: 50%;
   top: 50%;
-  bottom: 50%;
   font-size: 60;
   min-width: max-content;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #8bbfcc;
 }
 
 .learnt {
     height: 105vh;
     margin-top: 50px;
     background-color: rgb(46, 46, 46);
-}
-
-.name {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  right: 50;
-  top: 35%;
-  left: 50%;
-  top: 10%;
-  bottom: 65%;
-  font-size: 60;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #8bbfcc;
-  text-align: center;
 }
 
 .grid-container {
@@ -74,16 +55,16 @@ div.disabled {
     grid-column-start: 1;
     grid-column-end: 1;
     font-size: 40;
-    color: #8bbfcc;
+    color: #88c0d0;
     margin-left: 10px;
     text-align: left;
 }
 
 .time {
     line-height: 200px;
-    font-size: 100;
+    font-size: 80;
     text-align: left;
-    color: #ff5700;
+    color: #d08770;
     margin-left: 10px;
 }
 
@@ -99,7 +80,7 @@ div.disabled {
 
 h2 {
     font-size: 40;
-    color: #8bbfcc;
+    color: #88c0d0;
     line-height: 60px;
     margin-left: 10px;
 }
@@ -110,7 +91,7 @@ h2 {
     grid-template-columns: auto auto;
     grid-gap: 30px;
     padding-left: 10px;
-    color: white;
+    color: #d8dee9;
     text-align: left;
     font-size: 30;
 }
@@ -121,38 +102,44 @@ h2 {
     grid-template-columns: 90vh 90vh;
 }
 .exp {
-    color: #8bbfcc;
+    color: #88c0d0;
     font-size: 40;
     text-align: center;
     padding: 20px;
 }
 .work {
-    color: #8bbfcc;
+    color: #88c0d0;
     font-size: 20;
     padding: 20px;
 }
 
+.ohno {
+    justify-content: center;
+    text-align: center;
+    font-size: 60;
+}
+
 .educated{
-    color: #8bbfcc;
+    color: #88c0d0;
     font-size: 40;
     text-align: center;
     padding-top: 40px;
 }
 
 .schooling {
-    color: #8bbfcc;
+    color: #88c0d0;
     font-size: 20;
     padding: 20px;
     text-align: center;
 }
 
 iframe {
-    width: 100%;
+    width: 90vh;
     align-content: right;
 }
 
 .school {
-    color: #ff5700;
+    color: #5e81ac;
     font-size: 30;
     padding-top: 20px;
 }
@@ -167,7 +154,6 @@ iframe {
 
 .end {
     height: 50vh;
-    background-color: #ff5700;
     align-content: center;
 }
 
@@ -183,7 +169,7 @@ iframe {
     font-size: 60;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #393545;
+    color: #81a1c1;
     text-align: center;
 }
 
@@ -228,8 +214,9 @@ img {
     }
     .image {
         background-repeat: no-repeat;
-        width: 70%;
+        width: 90%;
         align-self: center;
+        padding: 0;
     }
 
     .work-and-education {
@@ -290,7 +277,7 @@ img {
         font-size: 30px;
     }
     .time {
-        font-size: 70px;
+        font-size: 50px;
         line-height: 100px;
     }
     h2 {
@@ -301,9 +288,11 @@ img {
     .bulltein-container {
         grid-gap-row: 15px;
         grid-column-gap: 1px;
+        justify-content: center;
     }
     .image {
         background-repeat: no-repeat;
+        height: 80vh;
     }
     .learnt {
         height: 150vh;
