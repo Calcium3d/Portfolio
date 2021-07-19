@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="font-sans">
+    <div className="font-sans w-screen">
       <nav className='flex items-center flex-wrap bg-nord1 p-3 '>
         <Link href='/'>
           <a className='bg-nord1 inline-flex items-center p-2 mr-4 '>
@@ -19,7 +19,7 @@ export const Navbar = () => {
           </a>
         </Link>
         <button
-          className=' bg-nord1 inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+          className=' bg-nord1 inline-flex p-3 hover:bg-nord1 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
           onClick={handleClick}
         >
           <svg
@@ -44,12 +44,7 @@ export const Navbar = () => {
           } bg-nord1  w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className='bg-nord1 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-            <Link href='/'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white '>
-                Home
-              </a>
-            </Link>
-            <Link href='/'>
+            <Link href='/programming'>
               <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
                 Programming
               </a>

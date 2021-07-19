@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import '../styles/Home.module.css';
 import { Navbar } from '../components/Navbar';
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
         <link rel='icon' href='/icon.jpg' />
       </Head>
       <Navbar />
-      <div className="division">
+      <div className="m-0 min-h-ninety grid place-content-center text-center font-sans w-screen">
         <h1 className="h1">
           Hello, My Name is Oishik Das
         </h1>
