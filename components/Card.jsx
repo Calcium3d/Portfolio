@@ -7,14 +7,14 @@ export function Card(props) {
 
     if (data != "0") {
         return (
-            <div className="shadow-xl bg-nord0 p-10 m-10 place-content-center rounded-2xl">
-                <h1 className="bg-nord0 text-white text-4xl text-center pb-10 px-5">{title}</h1>
-                <div className="md:grid bg-nord0 h-auto md:grid-rows-1 md:grid-cols-2 md:gap-4">
-                    <p className="bg-nord0 text-white text-1xl md:text-2xl text-center">
+            <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
+                <h1 className="bg-nord0 text-white text-4xl text-center">{title}</h1>
+                <br />
+                <div className="md:grid bg-nord0 h-auto md:grid md:grid-rows-1 md:grid-cols-2">
+                    <p className="bg-nord0 text-white text-1xl md:text-2xl text-center md:col-start-1 md:col-end-1">
                         {data}
                     </p>
-                    <br />
-                    <Image src={picture} alt={title} layout="responsive" className="bg-nord0 shadow-inner  object-contain" />
+                    <Image src={picture} alt={title} layout="responsive" className="bg-nord0 shadow-inner md:float-right  object-contain md:col-start-2 md:col-end-2" />
                 </div>
             </div>
         )

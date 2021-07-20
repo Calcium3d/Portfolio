@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <div className="font-sans w-screen">
-      <nav className='flex items-center flex-wrap bg-nord1 p-3 '>
+      <nav className='flex items-center flex-wrap bg-nord1 p-1 '>
         <Link href='/'>
           <a className='bg-nord1 inline-flex items-center p-2 mr-4 '>
             <span className=' bg-nord1 text-xl text-white font-bold uppercase tracking-wide'>
@@ -59,14 +59,9 @@ export const Navbar = () => {
                 About Me
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact'>
               <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
                 Contact
-              </a>
-            </Link>
-            <Link href='/'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
-                Hire
               </a>
             </Link>
           </div>
