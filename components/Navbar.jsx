@@ -49,7 +49,7 @@ export const Navbar = () => {
                 Programming
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/3d'>
               <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
                 3D
               </a>
