@@ -22,17 +22,17 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
-                    I'm 15
+                    I am 15
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl text-center md:text-2xl">
-                        And ive been teaching myself for 3 years
+                        And i have been teaching myself for 3 years
                 </p>
 
             </div>
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
-                    During which i've learnt
+                    During which i have learnt
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl md:text-2xl text-center">
@@ -53,7 +53,7 @@ export default function Home() {
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl md:text-2xl text-center">
-                        Im still in school. So no job for me yet
+                        I am still in school. So no job for me yet
                 </p>
             </div>
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
