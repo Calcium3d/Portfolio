@@ -37,12 +37,12 @@ export default function Home() {
                 <br />
                 <p className="bg-nord0 text-white text-1xl md:text-2xl text-center">
                         <div className="grid grid-cols-2">    
-                            <h2 className="bg-nord0 leading-7">Python</h2>
-                            <h2 className="bg-nord0 leading-7">Node JS</h2>
-                            <h2 className="bg-nord0 leading-7">React</h2>
-                            <h2 className="bg-nord0 leading-7">Next.js</h2>
-                            <h2 className="bg-nord0 leading-7">Rust</h2>
-                            <h2 className="bg-nord0 leading-7">Blender</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">Python</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">Node JS</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">React</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">Next.js</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">Rust</h2>
+                            <h2 className="bg-nord0 leading-7 p-3">Blender</h2>
                         </div>
                 </p>
                 

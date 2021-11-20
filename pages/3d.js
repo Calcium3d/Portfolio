@@ -32,7 +32,7 @@ export default function Home() {
       </div>
       <div className="grid place-content-center">
         <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
-          <p className="bg-nord0 text-white text-2xl text-center w-auto">For more click <a className="no-underline bg-nord0 text-nord7" href="https://elite-eclipse-dd6.notion.site/8081c67f7c1a47e0bedacc57057d5d1d?v=639d39dbc1524eb1ab92996fa443176d">Here</a></p>
+          <p className="bg-nord0 text-white text-2xl text-center w-auto">For more click <a className="no-underline bg-nord0 text-nord7" href="https://the_blue_chalk.artstation.com/">Here</a></p>
         </div>
       </div>
     </div>

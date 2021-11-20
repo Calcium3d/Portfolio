@@ -18,15 +18,15 @@ export default function Programming() {
                 <link rel='icon' href='/icon.jpg' />
             </Head>
             <Navbar />
-            <div className="min-h-fifteen grid place-content-center text-center">
-                <h1 className="text-5xl text-white">
+            <div className="grid place-items-center">
+                <h1 className="text-4xl lg:text-5xl xl:text-5xl text-white p-10 text-center">
                     Programming
                 </h1>
+                <Card title="Todolist" data={todolist} picture={Todolist} />
+                <Card title="Snake Game" data={snake} picture={Snake} />
+                <Card title="Portfolio" data={portfolio} picture={Portfolio} />
+                <Card title="github" data="0" />
             </div>
-            <Card title="Todolist" data={todolist} picture={Todolist} />
-            <Card title="Snake Game" data={snake} picture={Snake} />
-            <Card title="Portfolio" data={portfolio} picture={Portfolio} />
-            <Card title="github" data="0" />
         </div>
     )
 }

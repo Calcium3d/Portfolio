@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="font-sans w-screen">
+    <div className="font-sans">
       <nav className='flex items-center flex-wrap bg-nord1 p-1 '>
         <Link href='/'>
           <a className='bg-nord1 inline-flex items-center p-2 mr-4 '>
