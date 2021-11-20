@@ -12,7 +12,7 @@ export const Navbar = () => {
     <div className="font-sans">
       <nav className='flex items-center flex-wrap bg-nord1 p-1 '>
         <Link href='/'>
-          <a className='bg-nord1 inline-flex items-center p-2 mr-4 '>
+          <a className='bg-nord1 inline-flex px-5 items-center p-2 mr-4 '>
             <span className=' bg-nord1 text-xl text-white font-bold uppercase tracking-wide'>
               Oishik Das
             </span>
@@ -45,23 +45,28 @@ export const Navbar = () => {
         >
           <div className='bg-nord1 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/programming'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
+              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-3 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
                 Programming
               </a>
             </Link>
             <Link href='/3d'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
+              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
                 3D
               </a>
             </Link>
             <Link href='/about'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
+              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
                 About Me
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:text-white'>
+              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
                 Contact
+              </a>
+            </Link>
+            <Link href='https://61980a75136be526b96b5201--elegant-minsky-3b2869.netlify.app/'>
+              <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
+                Blog
               </a>
             </Link>
           </div>

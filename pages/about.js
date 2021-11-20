@@ -14,12 +14,12 @@ export default function Home() {
         <link rel='icon' href='/icon.jpg' />
       </Head>
       <Navbar />
-      <div className="min-h-fifteen grid place-content-center text-white text-5xl md:text-7xl">
+      <div className="min-h-fifteen grid place-content-center text-white text-5xl md:text-7xl animate-fade">
           <h1>
               Who Am I?
           </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 animate-fade">
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
                     I am 15
