@@ -6,13 +6,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      
-      // that is animation class
       animation: {
         fade: 'fadeOut 3s ease-in-out',
       },
 
-      // that is actual animation
       keyframes: theme => ({
         fadeOut: {
           '0%': { opacity: 0 },

@@ -64,7 +64,7 @@ export const Navbar = () => {
                 Contact
               </a>
             </Link>
-            <Link href='https://61980a75136be526b96b5201--elegant-minsky-3b2869.netlify.app/'>
+            <Link href='http://www.blog.oishikdas.in/'>
               <a className='bg-nord1 lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white font-bold items-center justify-center hover:bg-nord0 hover:shadow-lg hover:text-white transition-all duration-500'>
                 Blog
               </a>
