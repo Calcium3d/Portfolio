@@ -22,7 +22,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2 animate-fade">
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
-                    I am 15
+                    I am 16
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl text-center md:text-2xl">
