@@ -9,8 +9,8 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="font-sans">
-      <nav className='flex items-center flex-wrap bg-nord1 p-1 '>
+    <>
+      <nav className='font-sans flex items-center flex-wrap bg-nord1 p-1 '>
         <Link href='/'>
           <a className='bg-nord1 inline-flex px-5 items-center p-2 mr-4 '>
             <span className=' bg-nord1 text-xl text-white font-bold uppercase tracking-wide'>
@@ -19,11 +19,11 @@ export const Navbar = () => {
           </a>
         </Link>
         <button
-          className=' bg-nord1 inline-flex p-3 hover:bg-nord1 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+          className=' bg-nord1 inline-flex p-3 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
           onClick={handleClick}
         >
           <svg
-            className='w-6 h-6'
+            className='w-6 h-6 bg-nord1'
             fill='none'
             stroke='currentColor'
             viewBox='0 0 24 24'
@@ -72,6 +72,7 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
+    
   );
 };

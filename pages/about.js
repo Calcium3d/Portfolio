@@ -8,42 +8,42 @@ import youtube from '../public/about/youtube.png'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>About Me</title>
         <link rel='icon' href='/icon.jpg' />
       </Head>
       <Navbar />
-      <div className="min-h-fifteen grid place-content-center text-white text-5xl md:text-7xl animate-fade">
+      <section className="min-h-fifteen grid place-content-center text-white text-5xl md:text-7xl animate-fade">
           <h1>
               Who Am I?
           </h1>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 animate-fade">
+      </section>
+      <section className="grid grid-cols-1 lg:grid-cols-2 animate-fade">
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
                     I am 16
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl text-center md:text-2xl">
-                        And i have been teaching myself for 3 years
+                        And I have been teaching myself for 3 years
                 </p>
 
             </div>
             <div className="shadow-xl bg-nord0 p-10 m-10 rounded-2xl">
                 <h1 className="bg-nord0 text-white text-4xl text-center md:text-6xl">
-                    During which i have learnt
+                    During which I have learnt
                 </h1>
                 <br />
                 <p className="bg-nord0 text-white text-1xl md:text-2xl text-center">
-                        <div className="grid grid-cols-2">    
-                            <h2 className="bg-nord0 leading-7 p-3">Python</h2>
-                            <h2 className="bg-nord0 leading-7 p-3">Node JS</h2>
-                            <h2 className="bg-nord0 leading-7 p-3">React</h2>
-                            <h2 className="bg-nord0 leading-7 p-3">Next.js</h2>
-                            <h2 className="bg-nord0 leading-7 p-3">Rust</h2>
-                            <h2 className="bg-nord0 leading-7 p-3">Blender</h2>
-                        </div>
+                    <div className="grid grid-cols-2">    
+                        <h2 className="bg-nord0 leading-7 p-3">Python</h2>
+                        <h2 className="bg-nord0 leading-7 p-3">Node JS</h2>
+                        <h2 className="bg-nord0 leading-7 p-3">React</h2>
+                        <h2 className="bg-nord0 leading-7 p-3">Next.js</h2>
+                        <h2 className="bg-nord0 leading-7 p-3">Rust</h2>
+                        <h2 className="bg-nord0 leading-7 p-3">Blender</h2>
+                    </div>
                 </p>
                 
             </div>
@@ -61,31 +61,31 @@ export default function Home() {
                     Socials
                 </h1>
                 <br />
-                <div className="bg-nord0 grid grid-cols-1 grid-rows-4 place-content-centre justify-content md:grid-cols-4 md:grid-rows-1">
+                <div className="bg-nord0 grid grid-cols-2 gap-10 md:gap-20 grid-rows-2 place-content-centre justify-content md:grid-cols-4 md:grid-rows-1">
                     <a href="https://www.instagram.com/theeoishik/" className="bg-nord0">
                         <center className="bg-nord0">
-                            <Image src={instagram} alt="instagram" className="bg-nord0 object-contain" width={100} height={100}/>
+                            <Image src={instagram} alt="instagram" layout="responsive" className="bg-nord0 object-contain" />
                         </center>
                     </a>
                     <a href="https://twitter.com/The_Blue_Chalk">
                         <center className="bg-nord0">
-                            <Image src={twitter} alt="instagram" className="bg-nord0 object-contain" width={100} height={100}/>
+                            <Image src={twitter} alt="instagram" layout="responsive"  className="bg-nord0 object-contain" />
                         </center>
                     </a>
                     <a href="https://github.com/awsomemanNever/">
                         <center className="bg-nord0">
-                            <Image src={github} alt="instagram" className="bg-nord0 object-contain" width={100} height={100}/>
+                            <Image src={github} alt="instagram" layout="responsive" className="bg-nord0 object-contain" />
                         </center>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCmREB_8lraheyHM2ql6tRQw">
+                    <a href="https://www.youtube.com/channel/UCmREB_8lraheyHM2ql6tRQw" className="bg-nord0">
                         <center className="bg-nord0">
-                            <Image src={youtube} alt="instagram" className="bg-nord0 object-contain" width={100} height={100}/>
+                            <Image src={youtube} alt="instagram" layout="responsive"  className="bg-nord0 object-contain" />
                         </center>
                     </a>
                 </div>
             </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }
 

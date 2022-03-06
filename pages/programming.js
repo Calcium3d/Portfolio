@@ -10,7 +10,7 @@ export default function Programming() {
     const snake = "Snake Game made in Python using the Turtle module. My first project im very happy to share with others that was made entirely by myself."
     const portfolio = "Yeah, its this site. Inception, I know. Made with next.js and tailwind css. Personally, super happy with it. I hope you like it too!"
     return (
-        <div className="">
+        <>
             <Head>
                 <title>
                     Programming
@@ -18,7 +18,7 @@ export default function Programming() {
                 <link rel='icon' href='/icon.jpg' />
             </Head>
             <Navbar />
-            <div className="grid place-items-center">
+            <section className="grid place-items-center">
                 <h1 className="text-4xl lg:text-5xl xl:text-5xl text-white p-10 text-center">
                     Programming
                 </h1>
@@ -26,7 +26,7 @@ export default function Programming() {
                 <Card title="Snake Game" data={snake} picture={Snake} />
                 <Card title="Portfolio" data={portfolio} picture={Portfolio} />
                 <Card title="github" data="0" />
-            </div>
-        </div>
+            </section>
+        </>
     )
 }
