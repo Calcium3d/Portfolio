@@ -8,7 +8,7 @@
         Oishik
         Das.
     </p>
-    <p class="grid gap-3 pt-10 font-inter text-white text-2xl leading-loose font-light w-36">
+    <p class="grid gap-3 pt-10 font-inter text-white text-2xl leading-loose font-light w-52">
     <span>
       <NuxtLink to="/about">
         About me
@@ -20,10 +20,9 @@
       </NuxtLink>
     </span>
     <span>
-      3D Modelling
-    </span>
-    <span>
-      Programming
+      <NuxtLink to="/3d">
+        3D Modelling
+      </NuxtLink>
     </span>
     </p>
   </section>
