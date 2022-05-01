@@ -47,7 +47,8 @@ export default {
   googleFonts: {
     families: {
       Inter: true,
-      "DM Sans": true
+      "DM Sans": true,
+      Barlow: true,
     },
     prefetch: true,
     preconnect: true,

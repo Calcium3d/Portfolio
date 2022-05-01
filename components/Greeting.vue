@@ -1,30 +1,27 @@
 <template>
   <section class="text-white h-screen p-5">
-    <p class="text-6xl font-semibold">
+    <p class="text-7xl font-normal font-barlow w-52">
       <span class="text-light-blue">
       Hello.
       </span>
-      <br />
         I am
-      <br />
         Oishik
-      <br />
-        Das
+        Das.
     </p>
-    <p class="pt-10 font-inter text-white text-2xl leading-loose font-light">
+    <p class="grid gap-3 pt-10 font-inter text-white text-2xl leading-loose font-light w-36">
     <span>
-      About Me
+      <NuxtLink to="/about">
+        About me
+      </NuxtLink>
     </span>
-    <br />
     <span>
-      <fa-fileWaveform />
-      Contact
+      <NuxtLink to="/contact">
+        Contact
+      </NuxtLink>
     </span>
-    <br />
     <span>
       3D Modelling
     </span>
-    <br />
     <span>
       Programming
     </span>
