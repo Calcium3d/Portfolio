@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen bg-gradient-to-br from-grey to-black text-white">
+    <div class="h-content min-h-screen bg-gradient-to-br from-grey to-black text-white">
         <Navbar/>
         <section class="p-5 pt-10 lg:w-6/12 lg:p-24 lg:grid lg:justify-center">
             <h1 class="text-light-blue text-6xl font-barlow lg:text-9xl lg:w-full">
