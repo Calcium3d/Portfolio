@@ -1,14 +1,14 @@
 <template>
   <div class="h-screen bg-gradient-to-br from-grey to-black">
     <Navbar/>
-    <section class="p-5 text-white pt-10">
-      <h1 class="text-6xl font-barlow">
+    <section class="p-5 text-white pt-10 lg:w-6/12 lg:p-24 lg:grid lg:justify-center">
+      <h1 class="text-6xl font-barlow lg:text-9xl lg:w-full">
         Contact 
         <span class="text-light-blue">
         Me
         </span>
       </h1>
-      <section class="pt-10 w-52 leading-relaxed">
+      <section class="pt-10 w-52 leading-relaxed lg:text-3xl lg:w-9/12">
         <p>
           My primary source of contact would be my email. Feel free to drop an 
           <a v-bind:href="'mailto:thebluechalk@gmail.com'" class="text-light-blue">
